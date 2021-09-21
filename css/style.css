@@ -1,1 +1,187 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
 
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', sans-serif;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #66bfbf;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #66bfbf;
+}
+
+p {
+    color: #40514e;
+}
+
+hr {
+    color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    position: relative;
+    top: 30px;
+}
+
+
+/*----------------------inside contain---------------------*/
+
+.top-container {
+    background-color: #D4ECDD;
+}
+
+.top-container h1 {
+    margin-left: 500px;
+    font-size: 3rem;
+    color: #66bfbf;
+}
+
+.top-container h3 {
+    margin: -100px 300px 0 auto;
+    font-weight: bold;
+    color: #66bfbf;
+    font-size: 1.3rem;
+}
+
+.top-container h3 img {
+    width: 170px;
+    height: 60px;
+}
+
+.cloud {
+    margin-left: 100px;
+    width: 400px;
+    height: 100px;
+}
+
+.mountain {
+    width: 100%;
+    margin-top: -100px;
+}
+
+
+/*-------------------------middle container-------------------------*/
+
+.middle-container {}
+
+.profile {
+    position: relative;
+    top: 50px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.skills {
+    display: inline-flex;
+}
+
+.skills img {
+    border-radius: 50%;
+    width: 300px;
+    margin-top: -50px;
+}
+
+.skills .skills-inside h3 {
+    display: inline-flex;
+}
+
+.skill-inside h3 {
+    margin-left: -100px;
+}
+
+.skills p {
+    text-align: justify;
+}
+
+.skill-row {
+    display: flex;
+}
+
+.skill-row img {
+    border-radius: 50%;
+    width: 350px;
+}
+
+.skill-row1 {
+    text-align: justify;
+    position: relative;
+    left: 350px;
+    top: 50px;
+}
+
+.skill-row2 {
+    margin-top: -100px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+.skill-row-inside {
+    text-align: justify;
+}
+
+.contact-me button {
+    font-size: 16px;
+    width: 130px;
+    height: 30px;
+    background-color: #66bfbf;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.contact-me {
+    position: relative;
+    top: 30px;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-me p {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bottom-section {
+    background-color: #66bfbf;
+    height: 100px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.bottom-section .footer-link {
+    padding: 10px;
+    color: #11999e;
+}
+
+.bottom-section a {
+    text-decoration: none;
+}
+
+.bottom-section p {
+    font-size: 12px;
+}
+
+.btn {
+    color: #40514e;
+    background-color: #66bfbf;
+    font-size: 14;
+}
